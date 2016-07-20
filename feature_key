@@ -1,0 +1,20 @@
+    #    0: Chou-Fasman helix propensity value
+    #    1: Amino acid molecular weight
+    #    2: pKa value for free amino acid carboxylate
+    #    3: pKa value for free amino acid amine
+    #    4: pKa approximation for amino acid side chain
+    #    5: Number of carbon atoms in amino acid
+    #    6: Number of hydrogen atoms in amino acid zwitterion
+    #    7: Number of nitrogen atoms in amino acid
+    #    8: Number of oxygens in amino acid
+    #    9: Number of sulfur atoms in amino acid
+    #   10: Area in the standard state (standard state accessibiity
+    #       is defined as the Average surface area that residue
+    #       has in an ensemble of Gly-X-Gly tripeptides)
+    #   11: Average accessible area in proteins
+    #   12: Average area buried upon transfer from the standard
+    #       state to the folded proteins
+    #   13: Mean fractional area loss, equal to the average area buried
+    #       normalized by standard state area
+    #   14: Residue mass
+    #   15: Monoisotopic mass

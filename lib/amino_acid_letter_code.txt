@@ -1,0 +1,21 @@
+#Amino acid name, letter, code, number
+Isoleucine,I,ILE,1
+Valine,V,VAL,2
+Leucine,L,LEU,3
+Phenylalanine,F,PHE,4
+Cysteine,C,CYS,5
+Methionine,M,MET,6
+Alanine,A,ALA,7
+Glycine,G,GLY,8
+Threonine,T,THR,9
+Tryptophan,W,TRP,10
+Serine,S,SER,11
+Tyrosine,Y,TYR,12
+Proline,P,PRO,13
+Histidine,H,HIS,14
+Glutamic acid,E,GLU,15
+Glutamine,Q,GLN,16
+Aspartic acid,D,ASP,17
+Asparagine,N,ASN,18
+Lysine,K,LYS,19
+Arginine,R,ARG,20

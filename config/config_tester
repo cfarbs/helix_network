@@ -1,0 +1,8 @@
+#!/usr/bin/env python
+
+import pickle
+
+test = pickle.load(open("combos.pkl","rb"))
+
+#print (test['helixdict'])
+print (test['helixdict'][5]['choose'])
