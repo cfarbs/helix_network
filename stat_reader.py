@@ -8,9 +8,9 @@ import matplotlib.pyplot as plt
 #print (type(infilestr))
 
 epochs = np.arange(0,5000,500)
-savedir = "combo_train_graphs/"
-data = pickle.load(open("combo_80.pkl","rb"))
-for info in data:
+#savedir = "combo_train_graphs/"
+#data = pickle.load(open("combo_80.pkl","rb"))
+"""for info in data:
     infilestr = info[0]
     acc = str(info[1])
     results = pickle.load(open("combo_models/"+infilestr+"_Models/summary_stats.pkl","rb"))
@@ -24,8 +24,28 @@ for info in data:
     plt.xlabel("Epochs")
     plt.title("Accuracy Plot for "+infilestr+" "+"Test Accuracy: "+acc)
     plt.legend(['Training Accuracies', 'Xtrain Accuracies'], loc = 'lower right')
-    plt.savefig(savedir+infilestr+".png")
+    plt.savefig(savedir+infilestr+".png")"""
+infilename = "3079_summary.txt"
+infile = open(infilename,"r")
+names = []
+percents = []
 
+for line in infile:
+    lines = line.split(":")
+    digit = lines[1].split(" ")
+    numb = float(digit[1])
+    names.append(lines[0])
+    percents.append(numb)
+
+plt.xlabel("Test Accuracy")
+plt.ylabel("Frequency")
+plt.title("Error distribution for 0379, n = 100 iterations")
+plt.hist(percents)
+plt.show()
+
+
+
+#data=list(zip(names,percents))
 
 
 

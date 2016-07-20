@@ -48,11 +48,11 @@ j = {
     "model_type": "twoLayer",
     "helixdict": []
 }
-for m in range(100):
+for m in range(10000):
     d = dict()
-    d['title'] = "3079"
+    d['title'] = "0379"
     d['choose'] = [0,3,7,9]
     d['rand'] = False
     d['args'] = True
     j['helixdict'].append(d)
-pickle.dump(j,open("config/3079.pkl",'wb'))
+pickle.dump(j,open("config/0379.pkl",'wb'))
