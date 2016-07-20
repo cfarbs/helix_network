@@ -73,7 +73,7 @@ def classify_with_network2(
         # output params
         out_path="./"):
     print("2 way classification")
-    out_file = open("combo_summary.txt", 'a')
+    out_file = open(title+"_summary.txt", 'a')
     if model_dir is not None:
         print("looking for model in {}".format(model_dir))
         model_file = find_model_path(model_dir, title)

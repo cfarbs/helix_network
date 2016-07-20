@@ -41,5 +41,18 @@ for m in choices:
     j['helixdict'].append(d)
 pickle.dump(j,open("config/combos.pkl",'wb'))
 
-
 ###################################################
+j = {
+    "experiment_name": "0379",
+    "hidden_dim": [20],
+    "model_type": "twoLayer",
+    "helixdict": []
+}
+for m in range(100):
+    d = dict()
+    d['title'] = "3079"
+    d['choose'] = [0,3,7,9]
+    d['rand'] = False
+    d['args'] = True
+    j['helixdict'].append(d)
+pickle.dump(j,open("config/3079.pkl",'wb'))
