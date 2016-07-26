@@ -24,9 +24,8 @@ epochs = np.arange(0,5000,500)
     plt.xlabel("Epochs")
     plt.title("Accuracy Plot for "+infilestr+" "+"Test Accuracy: "+acc)
     plt.legend(['Training Accuracies', 'Xtrain Accuracies'], loc = 'lower right')
-    plt.savefig(savedir+infilestr+".png")"""
-infilename = "3079_summary.txt"
-infile = open(infilename,"r")
+    plt.savefig(savedir+infilestr+".png")
+#fileloc=input("Enter the name of the model directory to analyze")
 names = []
 percents = []
 
@@ -65,4 +64,12 @@ plt.show()
 #Order of data in file:
 #test accuracy,feature1,feature2,feature3,feature4,bestmodel,
 #training accuracy, xtrain accuracy, xtrain error
-#
+#"""
+
+infilename = "combo_models/(0, 3, 7, 9)_Models/test_probs.pkl"
+data= pickle.load(open(infilename,"rb"))
+#print (x[1])
+x = data[0]
+y = data[1]
+plt.plot(x,y)
+plt.show()

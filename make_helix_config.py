@@ -48,7 +48,7 @@ j = {
     "model_type": "twoLayer",
     "helixdict": []
 }
-for m in range(10000):
+for m in range(100):
     d = dict()
     d['title'] = "0379"
     d['choose'] = [0,3,7,9]

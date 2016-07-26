@@ -136,5 +136,5 @@ def classify_with_network2(
         with open("{}test_probs.pkl".format(trained_model_dir), 'wb') as probs_file:
             cPickle.dump(probs, probs_file)
 
-    #print(">{motif}\t{accuracy}".format(motif=title, accuracy=np.mean(scores), end="\n"), file=out_file)
+    print(">{motif}\t{accuracy}".format(motif=title, accuracy=np.mean(scores), end="\n"), file=out_file)
     return net

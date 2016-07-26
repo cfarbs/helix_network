@@ -29,6 +29,7 @@ def find_it(start, search_length, b_target, e_target, target_len, arr):
 aa_dict = amino_dict()
 digithelix = []
 filelist = sorted(glob.glob('C:/Users/Charlie/Documents/Grad_Related/REU_2016/Methylation/Protein_conformation/prot_files/pdb/proteins/parsed/*.pdb.gz.txt'))
+raw_helix=[]
 #filecount = 0
 for name in filelist:
     infile = open(name, 'r')
@@ -98,10 +99,6 @@ for name in filelist:
             #helisterrors += 1
             pass
 
-
-
-
-
     #list to store amino acids converted to numbers
     digitseq = []
     #change amino acids to numbers in a list.
@@ -109,16 +106,7 @@ for name in filelist:
         for aa in range(len(protseq)):
             digitseq.append(int(str(aa_dict[protseq[aa]])))
     except KeyError:
-        #infile.close()
-        #os.remove(pdbID + ".pdb.gz.txt")
-        #print ("Removed %s" % (pdbID))
-        #break
         pass
-
-
-    #if len(digitseq) != len(protseq):
-        #seqerrors+=1
-        #pass
 
     #print (pdbID)
     for count, aa in enumerate(helist):
@@ -126,6 +114,7 @@ for name in filelist:
         try:
             aastring = aa.split(" ")
             aashort = aastring[:12]
+            raw_helix.append(aashort)
             for residue in range(len(aashort)):
                 try:
                     #tempdigi.append(f_dict[aa_dict[aashort[residue]]])
@@ -141,24 +130,9 @@ for name in filelist:
                     #break
                     pass
         except AttributeError:
-            #infile.close()
-            #os.remove(pdbID + ".pdb.gz.txt")
-            #print ("Removed %s" % (pdbID))
-            #break
             pass
 
-
-        #except:
-            #print ("Something is wrong with %s's helices" % (pdbID))
-            #helix2numerrors += 1
-
     infile.close()
-    #filecount+=1
-    #if seqerrors or helixerrors or helisterrors or helix2numerrors > 0:
-        #outstring = "%s Sequence Parse Errors: %d; Helix Parse Errors: %d; Helix Extraction Errors: %d; Helix to Digit Errors: %d" % (pdbID, seqerrors, helixerrors, helisterrors, helix2numerrors)
-    #else:
-        #outstring = "%s is ready to go (probably)" % (pdbID)
-    #OutFile.write(outstring + "\n")
 
 #Hsamples = [0] * 33113
 data = digithelix[:1000]
@@ -172,11 +146,10 @@ for line in range(len(filelist)):
     temprand=[]
     nothelix = np.random.randint(1,21,size=12)
     randseq.append(nothelix)
-    #for num in range(len(nothelix)):
-        #temprand.append((f_dict[nothelix[num]]))
-        #if len(temprand) == len(nothelix):
-            #tempcomp = [x for t in temprand for x in t]
-            #randseq.append(tempcomp)
+
+rawdata = raw_helix
+pickle.dump(rawdata,open("rawhelices.pkl","wb"))
+
 
 randdata = randseq[:1000]
 #print (randdata[100])

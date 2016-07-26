@@ -8,7 +8,7 @@ except:
 import theano
 import theano.tensor as T
 import numpy as np
-from lib.utils import shared_dataset, get_network
+from lib.helix_utils import shared_dataset, get_network
 
 
 def mini_batch_sgd(motif, train_data, labels, xTrain_data, xTrain_targets,
@@ -146,10 +146,6 @@ def mini_batch_sgd(motif, train_data, labels, xTrain_data, xTrain_targets,
         with open("{}summary_stats.pkl".format(trained_model_dir), 'wb') as f:
             cPickle.dump(summary, f)
 
-        #best = summary['best_model']
-        #est2 = best.split('/')
-        #best3 = best2[1]
-        #numb = int(test3[5])
         outfile = "{}statsummary.txt".format(trained_model_dir)
         owtfile = open(outfile, "a")
         outstatement = ("{0},{1},{2},{3},".format(features, max(train_accuracies), max(xtrain_accuracies), min(batch_costs)))
