@@ -7,24 +7,52 @@ import matplotlib.pyplot as plt
 #infilestr=str(infile)
 #print (type(infilestr))
 
-epochs = np.arange(0,5000,500)
+epochs = np.arange(0,4000,400)
 #savedir = "combo_train_graphs/"
 #data = pickle.load(open("combo_80.pkl","rb"))
-"""for info in data:
-    infilestr = info[0]
-    acc = str(info[1])
-    results = pickle.load(open("combo_models/"+infilestr+"_Models/summary_stats.pkl","rb"))
-    error = pickle.load(open("combo_models/"+infilestr+"_Models/test_probs.pkl","rb"))
-    train_accuracies = (results['train_accuracies'])
-    xtrain_accuracies = (results['xtrain_accuracies'])
-    plt.figure()
-    plt.plot(epochs, results['train_accuracies'])
-    plt.plot(epochs, results['xtrain_accuracies'])
-    plt.ylabel("Accuracy of Train/Xtrain")
-    plt.xlabel("Epochs")
-    plt.title("Accuracy Plot for "+infilestr+" "+"Test Accuracy: "+acc)
-    plt.legend(['Training Accuracies', 'Xtrain Accuracies'], loc = 'lower right')
-    plt.savefig(savedir+infilestr+".png")
+#for info in data:
+results = pickle.load(open("generated_heices0379_Models/summary_stats.pkl","rb"))
+train_accuracies = (results['train_accuracies'])
+xtrain_accuracies = (results['xtrain_accuracies'])
+plt.figure()
+plt.plot(epochs, results['train_accuracies'])
+plt.plot(epochs, results['xtrain_accuracies'])
+plt.ylabel("Accuracy of Train/Xtrain")
+plt.xlabel("Epochs")
+plt.title("Accuracy Plot for 0379 on Generated Data")
+plt.legend(['Training Accuracies', 'Xtrain Accuracies'], loc = 'lower right')
+plt.savefig("0379_generated.png")
+percents = []
+infile = open("generated_heices0379_Models/statsummary.txt","r")
+for line in infile:
+    lines = line.split(",")
+    digit = lines[7].strip("\n")
+    numb = float(digit)
+    percents.append(numb)
+plt.figure()
+plt.xlabel("Test Accuracy")
+plt.ylabel("Frequency")
+plt.title("Error distribution for 0379, n = 100 iterations")
+plt.hist(percents)
+plt.savefig("Error_dist_Gen_0379.png")
+plt.show()
+infile.close()
+
+"""
+infilestr = info[0]
+acc = str(info[1])
+results = pickle.load(open("combo_models/"+infilestr+"_Models/summary_stats.pkl","rb"))
+error = pickle.load(open("combo_models/"+infilestr+"_Models/test_probs.pkl","rb"))
+train_accuracies = (results['train_accuracies'])
+xtrain_accuracies = (results['xtrain_accuracies'])
+plt.figure()
+plt.plot(epochs, results['train_accuracies'])
+plt.plot(epochs, results['xtrain_accuracies'])
+plt.ylabel("Accuracy of Train/Xtrain")
+plt.xlabel("Epochs")
+plt.title("Accuracy Plot for "+infilestr+" "+"Test Accuracy: "+acc)
+plt.legend(['Training Accuracies', 'Xtrain Accuracies'], loc = 'lower right')
+plt.savefig(savedir+infilestr+".png")
 #fileloc=input("Enter the name of the model directory to analyze")
 names = []
 percents = []
@@ -64,12 +92,12 @@ plt.show()
 #Order of data in file:
 #test accuracy,feature1,feature2,feature3,feature4,bestmodel,
 #training accuracy, xtrain accuracy, xtrain error
-#"""
+"""
 
-infilename = "combo_models/(0, 3, 7, 9)_Models/test_probs.pkl"
-data= pickle.load(open(infilename,"rb"))
+#infilename = "combo_models/(0, 3, 7, 9)_Models/test_probs.pkl"
+#data= pickle.load(open(infilename,"rb"))
 #print (x[1])
-x = data[0]
-y = data[1]
-plt.plot(x,y)
-plt.show()
+#x = data[0]
+#y = data[1]
+#plt.plot(x,y)
+#plt.show()
