@@ -68,7 +68,7 @@ def find_model_path(model_directory, title):
     p = "{modelDir}/{title}_Models/summary_stats.pkl".format(modelDir=model_directory, title=title)
     print("p={}".format(p))
     assert(os.path.exists(p)), "didn't find model files in this directory"
-    summary = cPickle.load(open(p, 'r'))
+    summary = cPickle.load(open(p, 'rb'))
     assert('best_model' in summary), "summary file didn't have the best_model file path"
     model = summary['best_model'].split("/")[-1]  # disregard the file path
     print("model: {}".format(model))

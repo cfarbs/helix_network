@@ -1,0 +1,1 @@
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,98.14814814814815,90.0,0.03849685564637184,80.96774193548387
