@@ -111,7 +111,7 @@ def main(args):
             "out_path": args.out,
             "helixdict": config['helixdict'][experiment],
         }
-        #classify_with_network2(**nn_args)  # activate for debugging
+        classify_with_network2(**nn_args)  # activate for debugging
         work_queue.put(nn_args)
 
     for w in range(workers):
