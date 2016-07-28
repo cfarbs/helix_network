@@ -2,300 +2,138 @@ nohup: ignoring input
 /soe/cfarbs/theano_env/lib64/python3.5/site-packages/theano/tensor/signal/downsample.py:6: UserWarning: downsample module has been moved to the theano.tensor.signal.pool module.
   "downsample module has been moved to the theano.tensor.signal.pool module.")
 got 0 missing params
+loading model from generated_helices-nolearn_0379_Models/model900.pkl
 got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
 got 0 missing params
+loading model from generated_helices-nolearn_0379_Models/model900.pkl
 got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
 got 0 missing params
+loading model from generated_helices-nolearn_0379_Models/model900.pkl
 got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
 got 0 missing params
+loading model from generated_helices-nolearn_0379_Models/model900.pkl
 got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
 got 0 missing params
+Process Process-5:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.5/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.5/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "helix_runner_v1.py", line 48, in run_nn2
+    n = classify_with_network2(**f)
+  File "/soe/cfarbs/helix/lib/helix_neural_network.py", line 124, in classify_with_network2
+    net, summary = mini_batch_sgd(**training_routine_args)
+  File "/soe/cfarbs/helix/lib/optimization.py", line 129, in mini_batch_sgd
+    batch_avg_cost = train_fcn(i)
+  File "/soe/cfarbs/theano_env/lib64/python3.5/site-packages/theano/compile/function_module.py", line 913, in __call__
+    for i, (required, refeed, value) in enumerate(self.defaults):
+KeyboardInterrupt
 got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
+loading model from generated_helices-nolearn_0379_Models/model900.pkl
 got 0 missing params
 got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
+loading model from generated_helices-nolearn_0379_Models/model900.pkl
 got 0 missing params
 got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
+loading model from generated_helices-nolearn_0379_Models/model900.pkl
 got 0 missing params
 got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
+loading model from generated_helices-nolearn_0379_Models/model900.pkl
 got 0 missing params
 got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
+Process Process-6:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.5/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.5/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "helix_runner_v1.py", line 48, in run_nn2
+    n = classify_with_network2(**f)
+  File "/soe/cfarbs/helix/lib/helix_neural_network.py", line 124, in classify_with_network2
+    net, summary = mini_batch_sgd(**training_routine_args)
+  File "/soe/cfarbs/helix/lib/optimization.py", line 129, in mini_batch_sgd
+    batch_avg_cost = train_fcn(i)
+  File "/soe/cfarbs/theano_env/lib64/python3.5/site-packages/theano/compile/function_module.py", line 894, in __call__
+    if getattr(self.fn, 'allow_gc', False):
+KeyboardInterrupt
 got 0 missing params
+loading model from generated_helices-nolearn_0379_Models/model900.pkl
 got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
 got 0 missing params
+loading model from generated_helices-nolearn_0379_Models/model900.pkl
 got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
 got 0 missing params
+loading model from generated_helices-nolearn_0379_Models/model900.pkl
 got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
 got 0 missing params
+loading model from generated_helices-nolearn_0379_Models/model900.pkl
 got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
 got 0 missing params
+Process Process-4:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.5/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.5/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "helix_runner_v1.py", line 48, in run_nn2
+    n = classify_with_network2(**f)
+  File "/soe/cfarbs/helix/lib/helix_neural_network.py", line 124, in classify_with_network2
+    net, summary = mini_batch_sgd(**training_routine_args)
+  File "/soe/cfarbs/helix/lib/optimization.py", line 129, in mini_batch_sgd
+    batch_avg_cost = train_fcn(i)
+  File "/soe/cfarbs/theano_env/lib64/python3.5/site-packages/theano/compile/function_module.py", line 786, in __call__
+    allow_downcast=s.allow_downcast)
+  File "/soe/cfarbs/theano_env/lib64/python3.5/site-packages/theano/tensor/type.py", line 149, in filter
+    converted_data = theano._asarray(data, self.dtype)
+  File "/soe/cfarbs/theano_env/lib64/python3.5/site-packages/theano/misc/safe_asarray.py", line 32, in _asarray
+    dtype = numpy.dtype(dtype)  # Convert into dtype object.
+KeyboardInterrupt
 got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
+loading model from generated_helices-nolearn_0379_Models/model900.pkl
 got 0 missing params
 got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
+loading model from generated_helices-nolearn_0379_Models/model900.pkl
 got 0 missing params
 got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
+loading model from generated_helices-nolearn_0379_Models/model900.pkl
 got 0 missing params
 got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
+loading model from generated_helices-nolearn_0379_Models/model900.pkl
 got 0 missing params
 got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
-got 0 missing params
-loading model from gen_rand_helices_2_0379_Models/model2250.pkl
-got 0 missing params
+Process Process-3:
+Traceback (most recent call last):
+  File "/usr/lib64/python3.5/multiprocessing/process.py", line 249, in _bootstrap
+    self.run()
+  File "/usr/lib64/python3.5/multiprocessing/process.py", line 93, in run
+    self._target(*self._args, **self._kwargs)
+  File "helix_runner_v1.py", line 48, in run_nn2
+    n = classify_with_network2(**f)
+  File "/soe/cfarbs/helix/lib/helix_neural_network.py", line 124, in classify_with_network2
+    net, summary = mini_batch_sgd(**training_routine_args)
+  File "/soe/cfarbs/helix/lib/optimization.py", line 129, in mini_batch_sgd
+    batch_avg_cost = train_fcn(i)
+  File "/soe/cfarbs/theano_env/lib64/python3.5/site-packages/theano/compile/function_module.py", line 786, in __call__
+    allow_downcast=s.allow_downcast)
+  File "/soe/cfarbs/theano_env/lib64/python3.5/site-packages/theano/tensor/type.py", line 154, in filter
+    force_same_dtype=False):
+  File "/soe/cfarbs/theano_env/lib64/python3.5/site-packages/theano/tensor/type.py", line 308, in values_eq
+    r = numpy.all(a_eq_b)
+  File "/soe/cfarbs/theano_env/lib64/python3.5/site-packages/numpy/core/fromnumeric.py", line 2039, in all
+    arr = asanyarray(a)
+  File "/soe/cfarbs/theano_env/lib64/python3.5/site-packages/numpy/core/numeric.py", line 533, in asanyarray
+    return array(a, dtype, copy=False, order=order, subok=True)
+KeyboardInterrupt
+Traceback (most recent call last):
+  File "helix_runner_v1.py", line 137, in <module>
+    sys.exit(main(sys.argv))
+  File "helix_runner_v1.py", line 128, in main
+    p.join()
+  File "/usr/lib64/python3.5/multiprocessing/process.py", line 121, in join
+    res = self._popen.wait(timeout)
+  File "/usr/lib64/python3.5/multiprocessing/popen_fork.py", line 51, in wait
+    return self.poll(os.WNOHANG if timeout == 0.0 else 0)
+  File "/usr/lib64/python3.5/multiprocessing/popen_fork.py", line 29, in poll
+    pid, sts = os.waitpid(self.pid, flag)
+KeyboardInterrupt
