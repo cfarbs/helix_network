@@ -98,7 +98,7 @@ def mini_batch_sgd(motif, train_data, labels, xTrain_data, xTrain_targets,
 
     for epoch in range(0, epochs):
         if epoch % check_frequency == 0:
-            batch_index.eval()
+            #batch_index.eval()
             # get the accuracy on the cross-train data
             xtrain_errors = [xtrain_fcn(_) for _ in range(int(n_xtrain_batches))]
             avg_xtrain_errors = np.mean(xtrain_errors)
