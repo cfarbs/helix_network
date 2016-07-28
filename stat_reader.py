@@ -21,7 +21,7 @@ plt.ylabel("Accuracy of Train/Xtrain")
 plt.xlabel("Epochs")
 plt.title("Accuracy Plot for 0379 on Generated Data")
 plt.legend(['Training Accuracies', 'Xtrain Accuracies'], loc = 'lower right')
-plt.savefig("0379_generated_notrain.png")
+plt.savefig("0379_generated_notrain_2.png")
 percents = []
 infile = open("generated_helices-nolearn_0379_Models/statsummary.txt","r")
 for line in infile:
@@ -42,7 +42,7 @@ plt.xlabel("Test Accuracy")
 plt.ylabel("Frequency")
 plt.title("Error distribution for 0379, n = 100 iterations")
 plt.hist(percents)
-plt.savefig("Error_dist_Gen_0379_notrain.png")
+plt.savefig("Error_dist_Gen_0379_notrain_2.png")
 #plt.show()
 infile.close()
 

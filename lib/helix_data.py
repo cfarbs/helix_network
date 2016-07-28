@@ -12,8 +12,8 @@ Data are retrieved from len=12_helices.pkl and len=12_rand.pkl
 
 """
 def load_helix(split,helixdict):
-    X = pickle.load(open("lib/helices.pkl","rb"))
-    y = pickle.load(open("lib/gen_helices.pkl","rb"))
+    X = pickle.load(open("lib/gen_helices.pkl","rb"))
+    y = pickle.load(open("lib/randhelices.pkl","rb"))
 
     aadict, features = contextdict(**helixdict)
 
