@@ -35,7 +35,7 @@ def predict(test_data, true_labels, batch_size, model, model_file=None):
     errors = [error_fcn(test_data[x * batch_size: (x + 1) * batch_size],
                         true_labels[x * batch_size: (x + 1) * batch_size])
               for x in range(int(n_test_batches))]
-    print (error_fcn(test_data[x * batch_size: (x + 1) * batch_size])
+    print (error_fcn(test_data[x * batch_size: (x + 1) * batch_size]))
     probs = [prob_fcn(test_data[x * batch_size: (x + 1) * batch_size])
              for x in range(int(n_test_batches))]
 
