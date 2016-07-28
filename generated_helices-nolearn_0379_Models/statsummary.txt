@@ -198,3 +198,228 @@ Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrog
 50.0
 Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,51.44444444444445,43.99999999999999,0.9246172812599192,49.04761904761905
 Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,50.888888888888886,46.00000000000001,0.6300489043283288,49.42857142857142
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.11111111111111,57.99999999999999,1.1487185757927805,55.42857142857143
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.11111111111111,50.0,0.2870440884962322,55.80952380952381
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.77777777777777,60.0,0.43210742177779055,54.761904761904766
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.22222222222223,57.99999999999999,0.06772817377074303,55.33333333333332
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.55555555555556,72.0,0.9980788774625946,54.38095238095237
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.99999999999999,57.99999999999999,0.5966718234529722,52.95238095238095
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,52.33333333333332,60.0,0.9521948736307142,56.85714285714285
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.77777777777778,54.0,0.6781722660502221,55.04761904761906
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.11111111111112,36.0,0.5759390900226354,55.61904761904762
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.111111111111114,62.0,0.7431136599038338,54.38095238095237
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,58.88888888888889,55.99999999999999,1.0842006645882485,51.42857142857142
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.666666666666664,50.0,1.1446845088676598,54.47619047619048
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.888888888888886,56.00000000000001,0.679111011564185,55.714285714285715
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.888888888888886,48.0,0.9372216094913471,55.23809523809524
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.22222222222223,48.00000000000001,0.9577287774247738,55.809523809523796
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.666666666666664,52.000000000000014,0.31138209734964273,54.38095238095237
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.55555555555556,57.99999999999999,0.8311243038385279,55.04761904761906
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.111111111111114,57.99999999999999,0.6086178986350391,53.714285714285715
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.00000000000001,44.00000000000001,1.1402216430687622,55.333333333333336
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.99999999999999,52.0,0.7509747240759367,55.80952380952382
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.11111111111112,50.0,0.6981403537707668,54.95238095238095
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.00000000000001,62.0,0.6767953998431473,53.61904761904762
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.888888888888886,55.99999999999999,1.0736509468166426,55.714285714285715
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,57.333333333333336,48.0,1.10308960899872,53.14285714285714
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.55555555555556,52.0,1.1843734096335536,55.33333333333332
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.222222222222214,62.0,0.6735939058575667,55.14285714285714
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.99999999999999,48.00000000000001,1.0310593617715766,55.14285714285714
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.0,66.0,0.9532471225854435,55.14285714285714
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.00000000000001,57.99999999999999,0.6047491470161191,53.80952380952381
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,51.88888888888889,60.0,1.3798091957985499,57.238095238095234
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.44444444444445,64.0,0.061196994510863405,55.714285714285715
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.11111111111111,64.0,0.7255914147029863,55.14285714285714
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.22222222222223,46.00000000000001,0.8868177175321045,55.04761904761904
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.44444444444445,48.0,1.1669047431609485,54.761904761904766
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.44444444444444,46.0,0.7337255230450306,54.0
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.00000000000001,50.0,0.23962903899426594,55.04761904761906
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.00000000000001,50.0,0.33777022473496704,55.047619047619044
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.44444444444445,52.0,1.1254833705284066,53.714285714285715
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.111111111111114,57.99999999999999,1.190128284462405,53.714285714285715
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.0,60.0,1.4645861539635805,55.42857142857143
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.44444444444445,51.99999999999999,0.67793313781919,54.57142857142857
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.77777777777777,58.00000000000001,0.7929721128373145,55.714285714285715
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.55555555555556,48.0,0.914702856540632,53.80952380952381
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.0,52.0,0.852517449306623,55.80952380952381
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.222222222222214,52.0,1.0681218324215433,56.47619047619048
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,57.22222222222223,48.0,0.6436662438160583,53.23809523809524
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.1111111111111,55.99999999999999,1.113863254085231,55.52380952380953
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.666666666666664,57.99999999999999,0.93430631983047,54.09523809523811
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.33333333333332,51.99999999999999,1.234938588443926,53.80952380952382
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.111111111111114,55.99999999999999,0.4756652550821843,53.80952380952381
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.666666666666664,72.0,0.8131144500427233,54.28571428571429
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,52.8888888888889,60.0,1.0521732474734748,56.38095238095238
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.666666666666664,56.00000000000001,0.5143369670627566,54.19047619047619
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,52.666666666666664,56.00000000000001,1.5006380277347307,56.761904761904766
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.22222222222223,50.0,0.8089020933986598,55.714285714285715
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,58.111111111111114,36.0,0.5761134883709783,53.04761904761905
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,52.8888888888889,55.99999999999999,1.0424044063379683,56.571428571428584
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.111111111111114,52.0,0.800344002021504,54.0
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,52.8888888888889,78.0,0.686592117271149,55.52380952380953
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.44444444444444,43.99999999999999,1.0107344634312923,54.95238095238095
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,52.33333333333334,52.0,0.9632734724950754,57.23809523809524
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.111111111111114,57.99999999999999,0.7935115404312011,54.57142857142857
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.00000000000001,55.99999999999999,0.26112048516521486,54.761904761904766
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.55555555555556,60.0,1.1143336003096922,54.09523809523809
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.55555555555555,57.99999999999999,0.9714763469141012,53.333333333333336
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.666666666666664,48.0,0.7792845514699215,55.42857142857143
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,52.8888888888889,54.0,1.1941196329635495,56.666666666666664
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.888888888888886,44.00000000000001,1.542199664028682,55.42857142857143
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.55555555555556,51.99999999999999,0.6059603205597942,53.61904761904761
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.11111111111112,57.99999999999999,0.6490089170934109,54.57142857142857
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.33333333333334,42.00000000000001,0.5807730742250262,56.00000000000001
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,52.66666666666667,60.0,0.28542139473989686,56.57142857142857
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.00000000000001,57.99999999999999,0.6378888751631763,54.666666666666664
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.77777777777777,55.99999999999999,1.5781629387103582,55.809523809523796
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.888888888888886,48.0,1.3596284768230378,56.09523809523809
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.22222222222223,62.0,0.37093308396680363,54.28571428571429
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.33333333333332,50.0,1.463497843341181,54.761904761904766
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.8888888888889,46.0,1.5400117835052805,54.47619047619048
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.00000000000001,38.0,0.8916948412547763,54.761904761904766
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.44444444444444,52.0,0.5171524704561746,53.714285714285715
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.22222222222223,60.00000000000001,1.9569828181528932,55.238095238095234
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.55555555555556,53.99999999999999,0.9574630751366415,55.23809523809524
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.88888888888888,41.99999999999999,1.0894753616557504,53.80952380952381
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.44444444444445,66.0,1.2768769238951112,53.9047619047619
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.55555555555556,54.0,1.0268685764574728,54.38095238095237
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.111111111111114,57.99999999999999,0.4638899761966391,54.571428571428584
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.11111111111111,60.0,1.1089291566395751,56.19047619047619
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.55555555555556,57.99999999999999,0.9398014361837334,54.19047619047619
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,58.111111111111114,50.0,0.42643220849649127,52.38095238095239
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.111111111111114,50.0,0.9097297048187775,54.09523809523809
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.00000000000001,57.99999999999999,0.39930398077849427,53.809523809523796
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.44444444444445,60.0,1.438203659864443,55.9047619047619
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.99999999999999,54.0,1.1288770156521222,55.714285714285715
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.0,62.0,0.5090382526997785,55.333333333333336
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.44444444444445,62.0,0.2957615165898911,54.95238095238095
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.222222222222214,50.0,0.5370375133041586,55.714285714285715
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.111111111111114,57.99999999999999,0.2965463735000198,53.714285714285715
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.666666666666664,55.99999999999999,1.364753800392017,53.33333333333334
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.111111111111114,63.99999999999999,0.6141150714170998,54.28571428571429
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.666666666666664,58.00000000000001,0.49671690393549,54.95238095238095
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.44444444444444,55.99999999999999,0.4856112571145781,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.55555555555556,52.0,0.7703425357044685,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.44444444444445,66.0,1.4526971852868211,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.22222222222223,65.99999999999999,0.5329869208417882,54.38095238095237
+53.61904761904761
+55.61904761904761
+54.09523809523809
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,57.555555555555536,54.0,1.0539740268928361,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.66666666666668,55.99999999999999,0.8667599431798312,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,52.55555555555556,54.0,1.3999573416103734,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.33333333333332,55.99999999999999,0.9428748453688348,52.66666666666667
+54.19047619047619
+56.952380952380956
+54.47619047619048
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.77777777777779,52.0,1.2804804670611458,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.11111111111111,57.99999999999999,0.9159776252663239,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.888888888888886,50.0,1.3191461638551942,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.77777777777778,57.99999999999999,1.306245775124352,56.00000000000001
+55.42857142857143
+56.00000000000001
+54.0
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.666666666666664,57.99999999999999,0.7739834794462588,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.44444444444445,48.0,0.48258523524034785,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.33333333333334,64.0,0.5565286626625329,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.666666666666664,63.99999999999999,0.747488745114139,54.09523809523809
+56.47619047619048
+54.09523809523811
+54.666666666666664
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.55555555555556,54.0,0.856992400772579,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.77777777777778,52.0,1.054008380161554,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.33333333333332,42.00000000000001,1.0964157305838718,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.888888888888886,58.00000000000001,0.2930359758978463,55.23809523809524
+54.28571428571429
+54.28571428571429
+54.761904761904766
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.666666666666664,72.0,1.4435628516888646,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.00000000000001,50.000000000000014,0.8110345707321865,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.666666666666664,60.0,0.9317647976003898,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.55555555555555,50.0,0.7961450551137149,54.28571428571429
+55.047619047619044
+54.85714285714286
+54.57142857142857
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.77777777777777,54.0,0.44639401548300894,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.22222222222223,54.0,1.4516770456869312,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.11111111111112,72.0,0.9208320359315788,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.1111111111111,52.0,0.5446085597172536,55.04761904761906
+54.666666666666664
+53.9047619047619
+54.0
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.44444444444445,43.99999999999999,0.9175695124595589,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.222222222222214,62.0,0.986222725657712,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.44444444444445,54.0,1.1856318161094404,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.666666666666686,57.99999999999999,1.655433660500237,56.666666666666664
+54.285714285714285
+53.61904761904762
+54.95238095238095
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.22222222222223,46.0,1.4136846855056966,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.888888888888886,52.000000000000014,0.811831333852648,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.77777777777778,62.0,0.5118903866642419,56.76190476190476
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.11111111111112,54.0,0.7711792039127613,55.047619047619044
+54.66666666666667
+54.761904761904766
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.888888888888886,46.00000000000001,1.1917658636688,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.8888888888889,52.0,0.8826225887505029,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.00000000000001,66.0,1.0265087894216685,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.222222222222214,57.99999999999999,0.24585513712178714,54.47619047619048
+55.9047619047619
+54.28571428571429
+53.61904761904761
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.444444444444436,57.99999999999999,1.0468765604940884,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,57.55555555555556,46.0,0.5794009085541235,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.111111111111114,55.99999999999999,0.6648743626544517,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.66666666666667,46.0,1.070504831770978,56.00000000000001
+53.04761904761905
+54.666666666666664
+56.38095238095238
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,52.222222222222214,52.0,1.3798697762934768,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,52.666666666666664,65.99999999999999,1.6906628039603564,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,57.22222222222223,52.0,0.7803507919178454,57.33333333333333
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.00000000000001,64.0,0.9931674535147685,56.28571428571427
+53.04761904761905
+54.38095238095237
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.333333333333336,44.00000000000001,0.555201294056475,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.33333333333332,38.000000000000014,0.500359657786148,54.19047619047619
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.44444444444445,64.0,1.1277012510988,55.333333333333336
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,52.222222222222214,60.00000000000001,1.5544842028218353,53.142857142857146
+56.952380952380956
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.111111111111114,55.99999999999999,1.0568288908647243,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.888888888888886,55.99999999999999,0.8118997091332391,54.666666666666664
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.77777777777779,72.0,1.1545629833501927,54.85714285714286
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.44444444444445,60.0,0.8675658534179034,55.04761904761906
+55.047619047619044
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,52.8888888888889,50.0,1.2762348253572746,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.55555555555556,52.0,0.5869393683261873,56.85714285714286
+54.47619047619048
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.44444444444445,54.0,0.830611364606337,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.77777777777778,52.0,0.26395710889950036,55.333333333333336
+55.142857142857146
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.22222222222223,60.0,0.6984173826439982,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.77777777777777,48.0,1.7170468209748648,55.23809523809524
+54.47619047619048
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.66666666666668,64.0,0.6510115362376218,52.95238095238096
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.33333333333334,55.99999999999999,0.46580910353067123,54.47619047619048
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,57.00000000000001,56.00000000000001,1.156277417661563,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.77777777777777,52.0,0.646185998899466,53.047619047619044
+56.00000000000001
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.888888888888886,56.00000000000001,0.36924687390959093,54.85714285714285
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,57.77777777777777,55.99999999999999,0.22834625337029898,52.380952380952394
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.11111111111112,43.99999999999999,0.4764470668103889,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.8888888888889,41.99999999999999,1.2257523718802794,55.23809523809524
+55.52380952380953
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.666666666666664,65.99999999999999,1.1416775004049224,52.85714285714285
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.8888888888889,41.99999999999999,0.1863991859124726,53.80952380952381
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.8888888888889,60.0,0.8682422309916513,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.55555555555555,52.0,1.009216676784808,55.52380952380952
+54.47619047619048
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.111111111111114,54.0,0.5270459338363312,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.44444444444445,62.0,1.3710707511211992,54.76190476190476
+55.80952380952381
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.333333333333336,72.0,0.3805108257815257,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.0,50.0,1.4445030360057136,55.42857142857143
+56.761904761904766
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.44444444444445,57.99999999999999,0.4851998196176303,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.222222222222214,40.0,0.4783011923365315,55.14285714285714
+55.33333333333332
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.55555555555556,60.0,0.5830733985481599,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.666666666666664,60.00000000000001,0.7694173550544146,54.09523809523811
+54.85714285714287
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.44444444444445,65.99999999999999,0.6292509314555229,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,57.33333333333333,57.99999999999999,0.30662568707647964,55.61904761904762
+52.66666666666667
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.111111111111114,54.0,0.883598862117718,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.666666666666664,42.00000000000001,0.730886050373709,54.761904761904766
+55.714285714285715
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.888888888888886,66.0,1.0617972212294822,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.111111111111114,60.0,0.6113463873816569,54.380952380952394
+54.47619047619048
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.22222222222223,50.0,0.49947565309706754,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.0,60.0,0.8161604366095763,54.85714285714286
+56.28571428571427
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.0,55.99999999999999,0.6556333923731631,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.11111111111111,54.0,0.18657183498420754,56.47619047619048
+55.61904761904761
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.00000000000001,68.0,0.5440283616144724,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.111111111111114,63.99999999999999,1.3028572555216154,53.33333333333334
+54.28571428571429
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.77777777777777,52.0,1.125237371604348,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.22222222222223,48.00000000000001,1.8070403651040443,54.28571428571429
+56.666666666666664
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.222222222222214,57.99999999999999,0.8689330700733592,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.11111111111111,70.0,0.2624489377615285,54.47619047619048
+54.85714285714285
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.11111111111111,61.999999999999986,0.6568715183909933,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.111111111111114,57.99999999999999,0.935996692697102,56.09523809523809
+53.714285714285715
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.44444444444445,60.00000000000001,0.31726788962030933,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.666666666666664,57.99999999999999,0.8121585697282295,54.19047619047619
+55.80952380952381
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.222222222222214,60.00000000000001,1.0031191216211834,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.44444444444445,60.0,1.3681909069816118,53.52380952380952
+54.19047619047619
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.8888888888889,48.0,0.0667022179350007,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.666666666666664,65.99999999999999,1.3434251776037462,54.38095238095237
+54.571428571428584
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,52.77777777777779,56.00000000000001,1.6959310268901415,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.55555555555556,54.0,1.514964783003876,56.666666666666664
+54.38095238095237
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.111111111111114,52.0,0.3607806084829041,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.00000000000001,64.0,0.43906472005999175,54.0
+53.52380952380952
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.888888888888886,41.99999999999999,0.5775857202513215,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.55555555555556,55.99999999999999,0.6011103596828583,56.38095238095238
+55.14285714285714
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.55555555555556,68.0,1.8512048293052508,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.55555555555556,50.0,1.0550711897300764,55.42857142857143
+54.57142857142857
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.00000000000001,50.0,0.8535345505608035,54.19047619047619
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.77777777777778,52.0,1.324484726214182,55.142857142857146
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,52.8888888888889,54.0,0.6509762396524069,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.444444444444436,50.0,1.2309122488609074,56.666666666666664
+56.38095238095238
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.55555555555556,51.99999999999999,1.6640768416685556,54.47619047619048
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,54.44444444444445,54.0,0.4488280824783975,55.33333333333332
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.44444444444445,55.99999999999999,0.5204407310692567,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.55555555555556,48.0,0.5801856074227902,53.809523809523796
+53.52380952380953
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,56.333333333333336,54.0,0.4778489666158029,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.00000000000001,48.0,0.27919299160627314,53.714285714285715
+55.14285714285714
+Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.222222222222214,55.99999999999999,0.800415087364814,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.888888888888886,63.99999999999999,0.4745561543423115,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,55.8888888888889,58.00000000000001,0.7414167222603418,Chou-Fasman helix propensity value,pKa of free amino acid amine,Number of nitrogens in amino acid,Number of sulfurs in amino acid,53.66666666666667,52.0,1.0018920580503479,
