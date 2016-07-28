@@ -27,7 +27,7 @@ def mini_batch_sgd(motif, train_data, labels, xTrain_data, xTrain_targets,
         n_train_samples, data_dim = train_data.shape
     n_train_samples, data_dim = train_data.shape
     n_classes = len(set(labels))
-    print (n_classes)
+
     # compute number of mini-batches for training, validation and testing
     train_set_x, train_set_y = shared_dataset(train_data, labels, True)
     xtrain_set_x, xtrain_set_y = shared_dataset(xTrain_data, xTrain_targets, True)
@@ -100,6 +100,7 @@ def mini_batch_sgd(motif, train_data, labels, xTrain_data, xTrain_targets,
         if epoch % check_frequency == 0:
             # get the accuracy on the cross-train data
             xtrain_errors = [xtrain_fcn(_) for _ in range(int(n_xtrain_batches))]
+            print (xtrain_errors)
             avg_xtrain_errors = np.mean(xtrain_errors)
             avg_xtrain_accuracy = 100 * (1 - avg_xtrain_errors)
             # then the training set
