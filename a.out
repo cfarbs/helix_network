@@ -1,7 +1,7 @@
 <class 'argparse.Namespace'>
 <_io.TextIOWrapper name='<stdout>' mode='w' encoding='UTF-8'> 
 #    Starting Neural Net analysis for 0379
-#    Command line: helix_runner_v1.py -c config/0379.pkl -b 10 -ep 1000 -o generated_helices-nolearn_ --model_dir (0, 3, 7, 9)_Models -e 0
+#    Command line: helix_runner_v1.py -c config/0379.pkl -b 10 -ep 1000 -o gen_rand_helices_ --model_dir (0, 3, 7, 9)_Models -e 0
 #    Config file: config/0379.pkl
 #    Network type: twoLayer
 #    Network dims: [20]
@@ -14,607 +14,606 @@
 #    Train/test split: 0.9
 #    L1 reg: 0.0
 #    L2 reg: 0.001
-#    Output to: generated_helices-nolearn_
+#    Output to: gen_rand_helices_
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 56.666666666666664 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 56.76190476190476 test accuracy.
+0379: 69.42857142857143 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 55.9047619047619 test accuracy.
+0379: 69.61904761904762 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 56.00000000000001 test accuracy.
+0379: 70.28571428571428 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 57.33333333333333 test accuracy.
+0379: 69.33333333333334 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.19047619047619 test accuracy.
+0379: 70.0 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.85714285714286 test accuracy.
+0379: 68.95238095238095 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.47619047619048 test accuracy.
+0379: 71.14285714285715 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.47619047619048 test accuracy.
+0379: 68.66666666666667 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 56.00000000000001 test accuracy.
+0379: 72.19047619047619 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 55.52380952380953 test accuracy.
+0379: 71.52380952380952 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.47619047619048 test accuracy.
+0379: 72.38095238095238 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 56.761904761904766 test accuracy.
+0379: 70.0952380952381 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.85714285714287 test accuracy.
+0379: 70.0 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 55.714285714285715 test accuracy.
+0379: 70.0952380952381 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 56.28571428571427 test accuracy.
+0379: 71.23809523809524 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.28571428571429 test accuracy.
+0379: 70.28571428571428 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.85714285714285 test accuracy.
+0379: 70.0 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 55.80952380952381 test accuracy.
+0379: 69.33333333333334 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.571428571428584 test accuracy.
+0379: 69.33333333333334 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 53.52380952380952 test accuracy.
+0379: 69.14285714285715 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.57142857142857 test accuracy.
+0379: 68.95238095238095 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 56.38095238095238 test accuracy.
+0379: 69.61904761904762 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 53.809523809523796 test accuracy.
+0379: 69.14285714285715 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 56.28571428571429 test accuracy.
+0379: 69.52380952380952 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.285714285714285 test accuracy.
+0379: 70.85714285714286 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 55.047619047619044 test accuracy.
+0379: 67.33333333333333 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.47619047619048 test accuracy.
+0379: 69.9047619047619 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 53.04761904761905 test accuracy.
+0379: 69.9047619047619 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 56.28571428571427 test accuracy.
+0379: 68.76190476190476 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 55.333333333333336 test accuracy.
+0379: 69.33333333333334 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.666666666666664 test accuracy.
+0379: 69.33333333333334 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 56.85714285714286 test accuracy.
+0379: 69.04761904761905 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 55.23809523809524 test accuracy.
+0379: 71.42857142857143 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 53.047619047619044 test accuracy.
+0379: 70.0 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 55.23809523809524 test accuracy.
+0379: 68.95238095238095 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 55.52380952380952 test accuracy.
+0379: 70.95238095238095 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 55.42857142857143 test accuracy.
+0379: 70.0952380952381 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.09523809523811 test accuracy.
+0379: 71.33333333333334 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.761904761904766 test accuracy.
+0379: 69.71428571428572 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.85714285714286 test accuracy.
+0379: 68.38095238095238 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 53.33333333333334 test accuracy.
+0379: 69.52380952380952 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.47619047619048 test accuracy.
+0379: 68.19047619047618 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.19047619047619 test accuracy.
+0379: 69.23809523809523 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.38095238095237 test accuracy.
+0379: 70.85714285714286 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.0 test accuracy.
+0379: 67.71428571428571 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 55.42857142857143 test accuracy.
+0379: 70.0 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 56.666666666666664 test accuracy.
+0379: 69.23809523809523 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 53.52380952380953 test accuracy.
+0379: 70.0952380952381 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 55.333333333333336 test accuracy.
+0379: 70.95238095238095 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.95238095238095 test accuracy.
+0379: 69.71428571428571 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.761904761904766 test accuracy.
+0379: 69.71428571428572 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 53.61904761904761 test accuracy.
+0379: 69.9047619047619 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 56.38095238095238 test accuracy.
+0379: 71.04761904761905 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.38095238095237 test accuracy.
+0379: 69.04761904761905 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 56.952380952380956 test accuracy.
+0379: 69.04761904761905 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 55.047619047619044 test accuracy.
+0379: 68.95238095238095 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 55.142857142857146 test accuracy.
+0379: 69.52380952380952 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.47619047619048 test accuracy.
+0379: 69.61904761904762 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 52.380952380952394 test accuracy.
+0379: 70.95238095238095 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 53.80952380952381 test accuracy.
+0379: 69.61904761904762 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 55.80952380952381 test accuracy.
+0379: 70.19047619047619 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 55.14285714285714 test accuracy.
+0379: 67.61904761904762 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 52.66666666666667 test accuracy.
+0379: 68.57142857142857 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.47619047619048 test accuracy.
+0379: 69.23809523809524 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 56.47619047619048 test accuracy.
+0379: 69.04761904761905 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.28571428571429 test accuracy.
+0379: 67.61904761904762 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 56.09523809523809 test accuracy.
+0379: 71.14285714285714 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 53.52380952380952 test accuracy.
+0379: 68.76190476190476 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 56.666666666666664 test accuracy.
+0379: 70.66666666666667 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 56.38095238095238 test accuracy.
+0379: 69.14285714285715 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.19047619047619 test accuracy.
+0379: 70.19047619047619 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.47619047619048 test accuracy.
+0379: 68.19047619047619 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 53.714285714285715 test accuracy.
+0379: 69.71428571428571 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 53.90476190476191 test accuracy.
+0379: 70.95238095238095 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 53.61904761904762 test accuracy.
+0379: 70.3809523809524 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.66666666666667 test accuracy.
+0379: 70.28571428571428 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.28571428571429 test accuracy.
+0379: 70.57142857142857 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.666666666666664 test accuracy.
+0379: 70.19047619047619 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 53.04761904761905 test accuracy.
+0379: 71.14285714285714 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 53.142857142857146 test accuracy.
+0379: 69.04761904761905 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 55.04761904761906 test accuracy.
+0379: 68.95238095238096 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 55.333333333333336 test accuracy.
+0379: 70.0 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 52.95238095238096 test accuracy.
+0379: 71.04761904761905 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.85714285714285 test accuracy.
+0379: 68.66666666666666 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 52.85714285714285 test accuracy.
+0379: 70.66666666666667 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.76190476190476 test accuracy.
+0379: 71.42857142857143 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 55.33333333333332 test accuracy.
+0379: 70.76190476190476 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 55.61904761904762 test accuracy.
+0379: 70.0952380952381 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.380952380952394 test accuracy.
+0379: 71.33333333333334 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 55.61904761904761 test accuracy.
+0379: 70.47619047619047 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 56.666666666666664 test accuracy.
+0379: 70.0952380952381 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 53.714285714285715 test accuracy.
+0379: 69.9047619047619 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.19047619047619 test accuracy.
+0379: 67.23809523809523 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 54.38095238095237 test accuracy.
+0379: 70.28571428571428 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 55.14285714285714 test accuracy.
+0379: 69.04761904761905 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 55.142857142857146 test accuracy.
+0379: 69.33333333333334 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 55.33333333333332 test accuracy.
+0379: 70.38095238095238 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 55.14285714285714 test accuracy.
+0379: 69.61904761904762 test accuracy.
 2 way classification
 looking for model in (0, 3, 7, 9)_Models
 p=(0, 3, 7, 9)_Models/0379_Models/summary_stats.pkl
 model: model4500.pkl
 loading model from (0, 3, 7, 9)_Models/0379_Models/model4500.pkl
-0379: 56.095238095238095 test accuracy.
+0379: 70.19047619047619 test accuracy.
 <_io.TextIOWrapper name='<stderr>' mode='w' encoding='UTF-8'> 
 	Finished Neural Net
 <_io.TextIOWrapper name='<stdout>' mode='w' encoding='UTF-8'> 
