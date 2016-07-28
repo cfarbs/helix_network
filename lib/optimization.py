@@ -62,7 +62,7 @@ def mini_batch_sgd(motif, train_data, labels, xTrain_data, xTrain_targets,
     # update tuple
     updates = [(param, param - learning_rate * nambla_param)
                for param, nambla_param in zip(net.params, nambla_params)]
-
+    batch_index_print = theano.printing.Print('batch index')(batch_index)
     # main function? could make this an attribute and reduce redundant code
     train_fcn = theano.function(inputs=[batch_index],
                                 outputs=cost,
@@ -98,7 +98,7 @@ def mini_batch_sgd(motif, train_data, labels, xTrain_data, xTrain_targets,
 
     for epoch in range(0, epochs):
         if epoch % check_frequency == 0:
-            print (batch_index)
+            print (batch_index_print)
             # get the accuracy on the cross-train data
             xtrain_errors = [xtrain_fcn(_) for _ in range(int(n_xtrain_batches))]
             avg_xtrain_errors = np.mean(xtrain_errors)
