@@ -56,3 +56,21 @@ for m in range(1):
     d['args'] = True
     j['helixdict'].append(d)
 pickle.dump(j,open("config/0379.pkl",'wb'))
+
+###################################################
+j = {
+    "experiment_name": "no_feats",
+    "hidden_dim": [10],
+    "model_type": "twoLayer",
+    "helixdict" : []
+}
+for m in range(1):
+    d = dict()
+    d['title'] = "no_feats"
+    d['choose'] = None
+    d['rand'] = False
+    d['args'] = False
+    j['helixdict'].append(d)
+pickle.dump(j,open("config/nofeats.pkl",'wb'))
+
+###################################################
