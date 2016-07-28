@@ -71,7 +71,7 @@ def mini_batch_sgd(motif, train_data, labels, xTrain_data, xTrain_targets,
                                     x: train_set_x[batch_index * batch_size: (batch_index + 1) * batch_size],
                                     y: train_set_y[batch_index * batch_size: (batch_index + 1) * batch_size]
                                 })
-
+    print (train_set_x)
     train_error_fcn = theano.function(inputs=[batch_index],
                                       outputs=net.errors(y),
                                       givens={
@@ -100,7 +100,6 @@ def mini_batch_sgd(motif, train_data, labels, xTrain_data, xTrain_targets,
         if epoch % check_frequency == 0:
             # get the accuracy on the cross-train data
             xtrain_errors = [xtrain_fcn(_) for _ in range(int(n_xtrain_batches))]
-            print (xtrain_errors)
             avg_xtrain_errors = np.mean(xtrain_errors)
             avg_xtrain_accuracy = 100 * (1 - avg_xtrain_errors)
             # then the training set
