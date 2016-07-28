@@ -38,7 +38,6 @@ def mini_batch_sgd(motif, train_data, labels, xTrain_data, xTrain_targets,
 
     # containers to hold mini-batches
     x = T.matrix('x')
-    print (x)
     y = T.ivector('y')
 
     net = get_network(x=x, in_dim=data_dim, n_classes=n_classes, hidden_dim=hidden_dim, model_type=model_type,
@@ -56,7 +55,7 @@ def mini_batch_sgd(motif, train_data, labels, xTrain_data, xTrain_targets,
                                      x: xtrain_set_x[batch_index * batch_size: (batch_index + 1) * batch_size],
                                      y: xtrain_set_y[batch_index * batch_size: (batch_index + 1) * batch_size]
                                  })
-
+    print (xtrain_set_x[batch_index * batch_size: (batch_index + 1) * batch_size])
     # gradients
     nambla_params = [T.grad(cost, param) for param in net.params]
 
