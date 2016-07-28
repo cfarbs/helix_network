@@ -24,10 +24,6 @@ def predict(test_data, true_labels, batch_size, model, model_file=None):
     n_test_batches = test_data.shape[0] / batch_size
     y = T.ivector('y')
 
-#    if type(n_test_batches) == float:
-#        print ("Number of test batches is a float for some reason. Rounding down")
-#        n_test_batches = int(n_test_batches)
-
     prob_fcn = theano.function(inputs=[model.input],
                                outputs=model.output,
                                allow_input_downcast=True)

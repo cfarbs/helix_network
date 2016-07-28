@@ -7,11 +7,11 @@ import matplotlib.pyplot as plt
 #infilestr=str(infile)
 #print (type(infilestr))
 
-epochs = np.arange(0,4000,400)
+epochs = np.arange(0,2500,250)
 #savedir = "combo_train_graphs/"
 #data = pickle.load(open("combo_80.pkl","rb"))
 #for info in data:
-results = pickle.load(open("gen_rand_helices_0379_Models/summary_stats.pkl","rb"))
+"""results = pickle.load(open("gen_rand_helices_2_0379_Models/summary_stats.pkl","rb"))
 train_accuracies = (results['train_accuracies'])
 xtrain_accuracies = (results['xtrain_accuracies'])
 plt.figure()
@@ -19,17 +19,17 @@ plt.plot(epochs, results['train_accuracies'])
 plt.plot(epochs, results['xtrain_accuracies'])
 plt.ylabel("Accuracy of Train/Xtrain")
 plt.xlabel("Epochs")
-plt.title("Accuracy Plot for 0379 on Generated vs Random")
+plt.title("Accuracy Plot for 0379 on Generated vs Random; 2nd Run")
 plt.legend(['Training Accuracies', 'Xtrain Accuracies'], loc = 'lower right')
-plt.savefig("0379_gen_rand.png")
+plt.savefig("generated_data_plots/0379_gen_rand_2.png")
 percents = []
-infile = open("gen_rand_helices_0379_Models/statsummary.txt","r")
+infile = open("gen_rand_helices_2_0379_Models/statsummary.txt","r")
 for line in infile:
     lines = line.split(",")
     try:
         point = lines[7]
         digit = point.strip("\n")
-        print (digit)
+        #print (digit)
         try:
             numb = float(digit)
             percents.append(numb)
@@ -37,15 +37,19 @@ for line in infile:
             pass
     except:
         pass
+for line in infile:
+    digit = line.strip("\n")
+    numb = float(digit)
+    percents.append(numb)
 plt.figure()
 plt.xlabel("Test Accuracy")
 plt.ylabel("Frequency")
-plt.title("Error distribution for 0379 on Generated vs Random, n = 100 iterations")
+plt.title("Error distribution for 0379 on Generated vs Random; 2nd Run, n = 100 iterations")
 plt.hist(percents)
-plt.savefig("Error_dist_Gen_Rand_0379.png")
+plt.savefig("generated_data_plots/Error_dist_Gen_Rand_0379_2.png")
 #plt.show()
 infile.close()
-
+"""
 """
 infilestr = info[0]
 acc = str(info[1])
@@ -78,12 +82,7 @@ plt.title("Error distribution for 0379, n = 100 iterations")
 plt.hist(percents)
 plt.show()
 
-
-
 #data=list(zip(names,percents))
-
-
-
 
 #feats = (results["features"])
 #bestmodel =  (results['best_model'])
@@ -102,10 +101,16 @@ plt.show()
 #training accuracy, xtrain accuracy, xtrain error
 """
 
-#infilename = "combo_models/(0, 3, 7, 9)_Models/test_probs.pkl"
-#data= pickle.load(open(infilename,"rb"))
-#print (x[1])
+infilename = "combo_models/(0, 3, 7, 9)_Models/test_probs.pkl"
+data= pickle.load(open(infilename,"rb"))
+#print (data)
+x = []
+y = []
+for points in data:
+    x.append(points[0])
+    y.append(points[1])
 #x = data[0]
 #y = data[1]
-#plt.plot(x,y)
-#plt.show()
+print (x[0],y[0])
+plt.plot(x,y)
+plt.show()
