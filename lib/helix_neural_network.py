@@ -23,7 +23,7 @@ def predict(test_data, true_labels, batch_size, model, model_file=None):
         model.load_from_file(file_path=model_file, careful=True)
     n_test_batches = test_data.shape[0] / batch_size
     y = T.ivector('y')
-
+    print (test_data)
     prob_fcn = theano.function(inputs=[model.input],
                                outputs=model.output,
                                allow_input_downcast=True)

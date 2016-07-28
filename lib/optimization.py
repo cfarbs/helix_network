@@ -53,7 +53,7 @@ def mini_batch_sgd(motif, train_data, labels, xTrain_data, xTrain_targets,
     xtrain_fcn = theano.function(inputs=[batch_index],
                                  outputs=net.errors(y),
                                  givens={
-                                     x_printed: xtrain_set_x[batch_index * batch_size: (batch_index + 1) * batch_size],
+                                     x: xtrain_set_x[batch_index * batch_size: (batch_index + 1) * batch_size],
                                      y: xtrain_set_y[batch_index * batch_size: (batch_index + 1) * batch_size]
                                  })
 
@@ -69,14 +69,14 @@ def mini_batch_sgd(motif, train_data, labels, xTrain_data, xTrain_targets,
                                 outputs=cost,
                                 updates=updates,
                                 givens={
-                                    x_printed: train_set_x[batch_index * batch_size: (batch_index + 1) * batch_size],
+                                    x: train_set_x[batch_index * batch_size: (batch_index + 1) * batch_size],
                                     y: train_set_y[batch_index * batch_size: (batch_index + 1) * batch_size]
                                 })
 
     train_error_fcn = theano.function(inputs=[batch_index],
                                       outputs=net.errors(y),
                                       givens={
-                                          x_printed: train_set_x[batch_index * batch_size: (batch_index + 1) * batch_size],
+                                          x: train_set_x[batch_index * batch_size: (batch_index + 1) * batch_size],
                                           y: train_set_y[batch_index * batch_size: (batch_index + 1) * batch_size]
                                       })
 
