@@ -11,7 +11,7 @@ epochs = np.arange(0,4000,400)
 #savedir = "combo_train_graphs/"
 #data = pickle.load(open("combo_80.pkl","rb"))
 #for info in data:
-results = pickle.load(open("generated_helices-nolearn_0379_Models/summary_stats.pkl","rb"))
+results = pickle.load(open("gen_rand_helices_0379_Models/summary_stats.pkl","rb"))
 train_accuracies = (results['train_accuracies'])
 xtrain_accuracies = (results['xtrain_accuracies'])
 plt.figure()
@@ -19,11 +19,11 @@ plt.plot(epochs, results['train_accuracies'])
 plt.plot(epochs, results['xtrain_accuracies'])
 plt.ylabel("Accuracy of Train/Xtrain")
 plt.xlabel("Epochs")
-plt.title("Accuracy Plot for 0379 on Generated Data")
+plt.title("Accuracy Plot for 0379 on Generated vs Random")
 plt.legend(['Training Accuracies', 'Xtrain Accuracies'], loc = 'lower right')
-plt.savefig("0379_generated_notrain_2.png")
+plt.savefig("0379_gen_rand.png")
 percents = []
-infile = open("generated_helices-nolearn_0379_Models/statsummary.txt","r")
+infile = open("gen_rand_helices_0379_Models/statsummary.txt","r")
 for line in infile:
     lines = line.split(",")
     try:
@@ -40,9 +40,9 @@ for line in infile:
 plt.figure()
 plt.xlabel("Test Accuracy")
 plt.ylabel("Frequency")
-plt.title("Error distribution for 0379, n = 100 iterations")
+plt.title("Error distribution for 0379 on Generated vs Random, n = 100 iterations")
 plt.hist(percents)
-plt.savefig("Error_dist_Gen_0379_notrain_2.png")
+plt.savefig("Error_dist_Gen_Rand_0379.png")
 #plt.show()
 infile.close()
 
