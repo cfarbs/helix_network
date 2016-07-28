@@ -38,6 +38,7 @@ def mini_batch_sgd(motif, train_data, labels, xTrain_data, xTrain_targets,
 
     # containers to hold mini-batches
     x = T.matrix('x')
+    x_printed = theano.printing.Print('this is the value of x')(x)
     y = T.ivector('y')
 
     net = get_network(x=x, in_dim=data_dim, n_classes=n_classes, hidden_dim=hidden_dim, model_type=model_type,
@@ -52,7 +53,7 @@ def mini_batch_sgd(motif, train_data, labels, xTrain_data, xTrain_targets,
     xtrain_fcn = theano.function(inputs=[batch_index],
                                  outputs=net.errors(y),
                                  givens={
-                                     x: xtrain_set_x[batch_index * batch_size: (batch_index + 1) * batch_size],
+                                     x_printed: xtrain_set_x[batch_index * batch_size: (batch_index + 1) * batch_size],
                                      y: xtrain_set_y[batch_index * batch_size: (batch_index + 1) * batch_size]
                                  })
 
@@ -62,20 +63,20 @@ def mini_batch_sgd(motif, train_data, labels, xTrain_data, xTrain_targets,
     # update tuple
     updates = [(param, param - learning_rate * nambla_param)
                for param, nambla_param in zip(net.params, nambla_params)]
-    batch_index_print = theano.printing.Print('batch index')(batch_index)
+
     # main function? could make this an attribute and reduce redundant code
     train_fcn = theano.function(inputs=[batch_index],
                                 outputs=cost,
                                 updates=updates,
                                 givens={
-                                    x: train_set_x[batch_index * batch_size: (batch_index + 1) * batch_size],
+                                    x_printed: train_set_x[batch_index * batch_size: (batch_index + 1) * batch_size],
                                     y: train_set_y[batch_index * batch_size: (batch_index + 1) * batch_size]
                                 })
 
     train_error_fcn = theano.function(inputs=[batch_index],
                                       outputs=net.errors(y),
                                       givens={
-                                          x: train_set_x[batch_index * batch_size: (batch_index + 1) * batch_size],
+                                          x_printed: train_set_x[batch_index * batch_size: (batch_index + 1) * batch_size],
                                           y: train_set_y[batch_index * batch_size: (batch_index + 1) * batch_size]
                                       })
 
@@ -98,7 +99,7 @@ def mini_batch_sgd(motif, train_data, labels, xTrain_data, xTrain_targets,
 
     for epoch in range(0, epochs):
         if epoch % check_frequency == 0:
-            print (batch_index[0].eval())
+            #print (batch_index[0].eval())
             # get the accuracy on the cross-train data
             xtrain_errors = [xtrain_fcn(_) for _ in range(int(n_xtrain_batches))]
             avg_xtrain_errors = np.mean(xtrain_errors)
