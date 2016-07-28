@@ -23,13 +23,13 @@ def predict(test_data, true_labels, batch_size, model, model_file=None):
         model.load_from_file(file_path=model_file, careful=True)
     n_test_batches = test_data.shape[0] / batch_size
     y = T.ivector('y')
-    y_print = theano.print.Printing('what is y?')(y)
+
     prob_fcn = theano.function(inputs=[model.input],
                                outputs=model.output,
                                allow_input_downcast=True)
 
     error_fcn = theano.function(inputs=[model.input, y],
-                                outputs=model.errors(y_printed),
+                                outputs=model.errors(y),
                                 allow_input_downcast=True)
 
     errors = [error_fcn(test_data[x * batch_size: (x + 1) * batch_size],
@@ -38,7 +38,7 @@ def predict(test_data, true_labels, batch_size, model, model_file=None):
 
     probs = [prob_fcn(test_data[x * batch_size: (x + 1) * batch_size])
              for x in range(int(n_test_batches))]
-    
+
     probs = list(chain(*probs))
 
     return errors, probs
