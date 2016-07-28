@@ -27,7 +27,7 @@ def mini_batch_sgd(motif, train_data, labels, xTrain_data, xTrain_targets,
         n_train_samples, data_dim = train_data.shape
     n_train_samples, data_dim = train_data.shape
     n_classes = len(set(labels))
-
+    print (n_classes)
     # compute number of mini-batches for training, validation and testing
     train_set_x, train_set_y = shared_dataset(train_data, labels, True)
     xtrain_set_x, xtrain_set_y = shared_dataset(xTrain_data, xTrain_targets, True)
@@ -55,7 +55,7 @@ def mini_batch_sgd(motif, train_data, labels, xTrain_data, xTrain_targets,
                                      x: xtrain_set_x[batch_index * batch_size: (batch_index + 1) * batch_size],
                                      y: xtrain_set_y[batch_index * batch_size: (batch_index + 1) * batch_size]
                                  })
-    print (xtrain_set_x[batch_index * batch_size: (batch_index + 1) * batch_size])
+
     # gradients
     nambla_params = [T.grad(cost, param) for param in net.params]
 
