@@ -15,7 +15,7 @@ def mini_batch_sgd(motif, train_data, labels, xTrain_data, xTrain_targets,
                    learning_rate, L1_reg, L2_reg, epochs,
                    features, batch_size,
                    hidden_dim, model_type, model_file=None,
-                   trained_model_dir=None, verbose=False, extra_args=None
+                   trained_model_dir=None, verbose=True, extra_args=None
                    ):
     # Preamble #
     # determine dimensionality of data and number of classes
