@@ -1,0 +1,22 @@
+no_feats: 63.33333333333334 test accuracy.
+>no_feats	0.6333333333333334
+no_feats: 65.90476190476191 test accuracy.
+>no_feats	0.6590476190476191
+no_feats: 62.66666666666667 test accuracy.
+>no_feats	0.6266666666666667
+no_feats: 60.1904761904762 test accuracy.
+>no_feats	0.6019047619047619
+no_feats: 65.23809523809524 test accuracy.
+>no_feats	0.6523809523809524
+no_feats: 66.0 test accuracy.
+>no_feats	0.66
+no_feats: 64.47619047619048 test accuracy.
+>no_feats	0.6447619047619049
+no_feats: 67.42857142857144 test accuracy.
+>no_feats	0.6742857142857144
+no_feats: 65.61904761904762 test accuracy.
+>no_feats	0.6561904761904762
+no_feats: 67.80952380952381 test accuracy.
+>no_feats	0.6780952380952381
+no_feats: 62.76190476190477 test accuracy.
+>no_feats	0.6276190476190477
