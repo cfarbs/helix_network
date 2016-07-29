@@ -103,7 +103,7 @@ plt.show()
 
 infilename = "testno_feats_Models/test_probs.pkl"
 data= pickle.load(open(infilename,"rb"))
-print (data)
+print (data[0])
 """x = []
 y = []
 for points in data:

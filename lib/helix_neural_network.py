@@ -41,6 +41,7 @@ def predict(test_data, true_labels, batch_size, model, model_file=None):
 
     probs = list(chain(*probs))
     probs = list(zip(test_data, true_labels, probs))
+    print (errors)
     return errors, probs
 
 
