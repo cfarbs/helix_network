@@ -40,7 +40,7 @@ def predict(test_data, true_labels, batch_size, model, model_file=None):
              for x in range(int(n_test_batches))]
 
     probs = list(chain(*probs))
-
+    probs = zip(test_data, probs)
     return errors, probs
 
 
