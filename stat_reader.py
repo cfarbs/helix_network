@@ -101,10 +101,10 @@ plt.show()
 #training accuracy, xtrain accuracy, xtrain error
 """
 
-infilename = "combo_models/(0, 3, 7, 9)_Models/test_probs.pkl"
+infilename = "testno_feats_Models/test_probs.pkl"
 data= pickle.load(open(infilename,"rb"))
-#print (data)
-x = []
+print (data)
+"""x = []
 y = []
 for points in data:
     x.append(points[0])
@@ -114,3 +114,4 @@ for points in data:
 print (x[0],y[0])
 plt.plot(x,y)
 plt.show()
+"""
