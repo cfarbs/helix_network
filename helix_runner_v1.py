@@ -4,7 +4,7 @@ import sys
 import pickle
 from lib.helix_neural_network import classify_with_network2
 from argparse import ArgumentParser
-from multiprocessing import Process, current_process, Manager
+#from multiprocessing import Process, current_process, Manager
 
 
 def parse_args():
@@ -42,12 +42,12 @@ def parse_args():
     print (type(args))
     return args
 
-def run_nn2(work_queue, done_queue):
-    try:
-        for f in iter(work_queue.get, 'STOP'):
-            n = classify_with_network2(**f)
-    except Exception:
-        done_queue.put("%s failed" % current_process().name)
+#def run_nn2(work_queue, done_queue):
+#    try:
+#        for f in iter(work_queue.get, 'STOP'):
+#            n = classify_with_network2(**f)
+#    except Exception:
+#        done_queue.put("%s failed" % current_process().name)
 
 def main(args):
     args = parse_args()
@@ -87,10 +87,10 @@ def main(args):
 #
 #
     print (sys.stdout, start_message)
-    workers = args.jobs
-    work_queue = Manager().Queue()
-    done_queue = Manager().Queue()
-    jobs = []
+#    workers = args.jobs
+#    work_queue = Manager().Queue()
+#    done_queue = Manager().Queue()
+#    jobs = []
 
     for experiment in range(len(config['helixdict'])):
         nn_args = {
@@ -111,23 +111,23 @@ def main(args):
             "out_path": args.out,
             "helixdict": config['helixdict'][experiment],
         }
-        #classify_with_network2(**nn_args)  # activate for debugging
+        error, probs = classify_with_network2(**nn_args)  # activate for debugging
         work_queue.put(nn_args)
-
-    for w in range(workers):
+        print (probs[5])
+#    for w in range(workers):
         #if args.group_3 is None:
-        p = Process(target=run_nn2, args=(work_queue, done_queue))
+#        p = Process(target=run_nn2, args=(work_queue, done_queue))
         #else:
             #p = Process(target=run_nn3, args=(work_queue, done_queue))
-        p.start()
-        jobs.append(p)
-        work_queue.put('STOP')
+#        p.start()
+#        jobs.append(p)
+#        work_queue.put('STOP')
 
 
-    for p in jobs:
-        p.join()
+#    for p in jobs:
+#        p.join()
 
-    done_queue.put('STOP')
+#    done_queue.put('STOP')
 
     print (sys.stderr, "\n\tFinished Neural Net")
     print (sys.stdout, "\n\tFinished Neural Net")

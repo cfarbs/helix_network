@@ -103,7 +103,39 @@ plt.show()
 
 infilename = "testno_feats_Models/test_probs.pkl"
 data= pickle.load(open(infilename,"rb"))
-print (data[0], data[10],data[100])
+#print (data[0])
+
+truepos = 0
+trueneg = 0
+falsepos = 0
+falseneg = 0
+for stuff in data:
+    if stuff[1] == 0:
+        if stuff[2][0] > stuff[2][1]:
+            truepos +=1
+        else:
+            falseneg += 1
+    elif stuff[1] == 1:
+        if stuff[2][1] > stuff [2][0]:
+            trueneg += 1
+        else:
+            falsepos +=1
+    else:
+        print (stuff[1])
+        print ("Some how, a third value was decided on by a binary classifier. Weird, huh?")
+
+#print ("True Positives:", truepos)
+#print ("False Negatives:", falseneg)
+#print ("True Negatives:", trueneg)
+#print ("False Positives:", falsepos)
+
+tpr = truepos/(truepos+falseneg)
+fpr = falsepos/(falsepos+trueneg)
+
+print (tpr)
+print (fpr)
+
+
 """x = []
 y = []
 for points in data:

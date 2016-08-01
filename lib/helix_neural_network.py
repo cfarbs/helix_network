@@ -41,7 +41,7 @@ def predict(test_data, true_labels, batch_size, model, model_file=None):
 
     probs = list(chain(*probs))
     probs = list(zip(test_data, true_labels, probs))
-    print (errors)
+    #print (errors)
     return errors, probs
 
 
@@ -132,6 +132,6 @@ def classify_with_network2(
         outfile2.close
         with open("{}test_probs.pkl".format(trained_model_dir), 'wb') as probs_file:
             cPickle.dump(probs, probs_file)
-
+        return error, probs    
     print(">{motif}\t{accuracy}".format(motif=title, accuracy=np.mean(scores), end="\n"), file=out_file)
     return net
