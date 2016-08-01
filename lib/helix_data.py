@@ -8,7 +8,7 @@ from .context_dict import contextdict
 Package to import helix data for use
 
 """
-def load_helix(split,helixdict,adversarial = False,data):
+def load_helix(adversarial = False,split,helixdict,data):
     if adversarial:
         X = pickle.load(open("lib/helices.pkl","rb"))
         y = data
