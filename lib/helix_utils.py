@@ -14,8 +14,8 @@ from .model import NeuralNetwork
 from random import shuffle
 from .helix_data import load_helix
 
-def setUp(adversarial,split,helixdict,data):
-    tr_data,xtr_data,ts_data, features = load_helix(split,helixdict,adversarial,data)
+def setUp(split,helixdict,data,adversarial):
+    tr_data,xtr_data,ts_data, features = load_helix(split,helixdict,data,adversarial)
     train_data = np.array([x[0] for x in tr_data])
     labels = [x[1] for x in tr_data]
     xTrain_data = np.array([x[0] for x in xtr_data])

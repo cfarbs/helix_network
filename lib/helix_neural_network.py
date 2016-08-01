@@ -79,7 +79,7 @@ def classify_with_network2(
 
     split = train_test_split
 
-    training_data, training_labels, xtrain_data, xtrain_targets, test_data, test_targets, features = setUp(split,helixdict,adversarial,data)
+    training_data, training_labels, xtrain_data, xtrain_targets, test_data, test_targets, features = setUp(split,helixdict,data,adversarial)
 
     for i in range(iterations):
         prc_train, prc_xtrain, prc_test = preprocess_data(training_vectors=training_data,
