@@ -3,17 +3,20 @@ import numpy as np
 import os
 import pickle
 from random import shuffle
-from lib.context_dict import contextdict
+from .context_dict import contextdict
 """
 Package to import helix data for use
 
-Data are retrieved from len=12_helices.pkl and len=12_rand.pkl
-
-
 """
-def load_helix(split,helixdict):
-    X = pickle.load(open("lib/gen_helices.pkl","rb"))
-    y = pickle.load(open("lib/randhelices.pkl","rb"))
+def load_helix(split,helixdict,adversarial = False,data):
+    if adversarial:
+        X = pickle.load(open("lib/helices.pkl","rb"))
+        y = data
+        print ("This is an adversarial run.")
+    else:
+        X = pickle.load(open("lib/helices.pkl","rb"))
+        y = pickle.load(open("lib/randhelices.pkl","rb"))
+        print ("This is a non-adversarial run.")
 
     aadict, features = contextdict(**helixdict)
 

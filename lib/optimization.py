@@ -8,7 +8,7 @@ except:
 import theano
 import theano.tensor as T
 import numpy as np
-from lib.helix_utils import shared_dataset, get_network
+from .helix_utils import shared_dataset, get_network
 
 
 def mini_batch_sgd(motif, train_data, labels, xTrain_data, xTrain_targets,

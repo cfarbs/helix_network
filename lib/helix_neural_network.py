@@ -14,8 +14,8 @@ import theano.tensor as T
 import numpy as np
 import pickle as cPickle
 from itertools import chain
-from lib.helix_utils import setUp, preprocess_data, get_network,find_model_path
-from lib.optimization import mini_batch_sgd
+from .helix_utils import setUp, preprocess_data, get_network,find_model_path
+from .optimization import mini_batch_sgd
 
 def predict(test_data, true_labels, batch_size, model, model_file=None):
     if model_file is not None:
@@ -62,7 +62,7 @@ def evaluate_network(test_data, targets, model_file, model_type, batch_size, ext
 
 def classify_with_network2(
         # alignment files
-        preprocess, title, helixdict,
+        preprocess, title, helixdict, adversarial,data
         # training params
         learning_algorithm, train_test_split, iterations, epochs, batch_size,
         # model params
@@ -79,7 +79,7 @@ def classify_with_network2(
 
     split = train_test_split
 
-    training_data, training_labels, xtrain_data, xtrain_targets, test_data, test_targets, features = setUp(split,helixdict)
+    training_data, training_labels, xtrain_data, xtrain_targets, test_data, test_targets, features = setUp(split,helixdict,adversarial,data)
 
     for i in range(iterations):
         prc_train, prc_xtrain, prc_test = preprocess_data(training_vectors=training_data,
@@ -132,6 +132,6 @@ def classify_with_network2(
         outfile2.close
         with open("{}test_probs.pkl".format(trained_model_dir), 'wb') as probs_file:
             cPickle.dump(probs, probs_file)
-        return errors, probs    
+        return errors, probs
     print(">{motif}\t{accuracy}".format(motif=title, accuracy=np.mean(scores), end="\n"), file=out_file)
     return net

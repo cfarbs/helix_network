@@ -2,7 +2,7 @@
 import numpy as np
 import pickle
 import os
-from lib.aa_feature_dict import feature_dict
+from .aa_feature_dict import feature_dict
 
 def contextdict(title,choose,rand=True,args=False):
     if rand or args:

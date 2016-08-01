@@ -11,7 +11,7 @@ import pickle as cPickle
 import numpy as np
 izip = zip
 #from itertools import izip
-from lib.layers import HiddenLayer, SoftmaxLayer
+from .layers import HiddenLayer, SoftmaxLayer
 import theano.tensor as T
 
 class Model(object):
