@@ -62,7 +62,7 @@ def evaluate_network(test_data, targets, model_file, model_type, batch_size, ext
 
 def classify_with_network2(
         # alignment files
-        preprocess, title, helixdict, adversarial,data
+        preprocess, title, helixdict, adversarial,data,
         # training params
         learning_algorithm, train_test_split, iterations, epochs, batch_size,
         # model params
