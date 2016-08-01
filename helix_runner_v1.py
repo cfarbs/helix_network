@@ -112,7 +112,7 @@ def main(args):
             "helixdict": config['helixdict'][experiment],
         }
         errors, probs = classify_with_network2(**nn_args)  # activate for debugging
-        work_queue.put(nn_args)
+#        work_queue.put(nn_args)
         print (probs[5])
 #    for w in range(workers):
         #if args.group_3 is None:
