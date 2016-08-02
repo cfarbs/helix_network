@@ -101,8 +101,8 @@ plt.show()
 #training accuracy, xtrain accuracy, xtrain error
 """
 
-infilename = "testno_feats_Models/test_probs.pkl"
-data= pickle.load(open(infilename,"rb"))
+#infilename = "testno_feats_Models/test_probs.pkl"
+#data= pickle.load(open(infilename,"rb"))
 #print (data[0])
 
 truepos = 0
