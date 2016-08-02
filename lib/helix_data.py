@@ -10,13 +10,12 @@ Package to import helix data for use
 """
 def load_helix(split,helixdict,data,adversarial = False):
     if adversarial:
-        X = pickle.load(open("lib/helices.pkl","rb"))
+        X = pickle.load(open("helix_network/lib/helices.pkl","rb"))
         y = data
-        print ("This is an adversarial run.")
+
     else:
-        X = pickle.load(open("lib/helices.pkl","rb"))
-        y = pickle.load(open("lib/randhelices.pkl","rb"))
-        print ("This is a non-adversarial run.")
+        X = pickle.load(open("helix_network/lib/helices.pkl","rb"))
+        y = pickle.load(open("helix_network/lib/randhelices.pkl","rb"))
 
     aadict, features = contextdict(**helixdict)
 

@@ -3,7 +3,7 @@
 #Script to add features to amino acids to increase accuracy of network
 
 def feature_dict():
-    featurefilename = "lib/aa_data_chart.txt"
+    featurefilename = "helix_network/lib/aa_data_chart.txt"
     aminofile = open(featurefilename, 'r')
     Feature = {}
     LineNumber = 0
