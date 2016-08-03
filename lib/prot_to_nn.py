@@ -135,7 +135,7 @@ for name in filelist:
     infile.close()
 
 #Hsamples = [0] * 33113
-data = digithelix[:1000]
+data = digithelix
 pickle.dump(data,open("helices.pkl","wb"))
 
 
@@ -151,6 +151,6 @@ rawdata = raw_helix
 pickle.dump(rawdata,open("rawhelices.pkl","wb"))
 
 
-randdata = randseq[:1000]
+randdata = randseq
 #print (randdata[100])
 pickle.dump(randdata, open("randhelices.pkl","wb"))

@@ -3,12 +3,15 @@
 #script to convert parsed data into useable format
 
 def amino_dict():
-    aminofilename = "amino_acid_letter_code.txt"
-    aminofile = open(aminofilename, 'r')
+    try:
+        aminofilename = "helix_network/lib/amino_acid_letter_code.txt"
+        aminofile = open(aminofilename,'r')
+    except FileNotFoundError:
+        aminofilename = "amino_acid_letter_code.txt"
+        aminofile = open(aminofilename,'r')
     Amino = {}
     LineNumber = 0
     Codes = []
-
     for Line in aminofile:
         if(LineNumber>0):
             Codes = Line.split(",")
