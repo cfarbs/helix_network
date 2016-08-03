@@ -104,7 +104,7 @@ plt.show()
 #infilename = "testno_feats_Models/test_probs.pkl"
 #data= pickle.load(open(infilename,"rb"))
 #print (data[0])
-
+"""
 truepos = 0
 trueneg = 0
 falsepos = 0
@@ -134,7 +134,7 @@ fpr = falsepos/(falsepos+trueneg)
 
 print (tpr)
 print (fpr)
-
+"""
 
 """x = []
 y = []
