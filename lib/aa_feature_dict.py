@@ -28,16 +28,16 @@ def feature_dict():
             else:
                 pkaR = float(pkaR)
                 if pkaR < 7:
-                    pkaR = 1
+                    pkaR = 1.0
                 else:
-                    pkaR = 2
+                    pkaR = 2.0
             numcarbs = Codes[11].strip(" ")
             numhyd = Codes[12].strip(" ")
             numnitro = Codes[13].strip(" ")
             numoxy = Codes[14].strip(" ")
             numsulfur = Codes[15].strip(" ")
             if numsulfur == "":
-                numsulfur = 0
+                numsulfur = 0.0
             area = Codes[16].strip(" ")
             accessarea = Codes[17].strip(" ")
             buriedarea = Codes[18].strip(" ")
@@ -45,7 +45,7 @@ def feature_dict():
             residmass = Codes[20].strip(" ")
             monoisomass = Codes[21].strip("\n")
             Feature[numb]=(float(heliprop), float(aaweight), float(pkacarb), float(pkaamine),
-                            int(pkaR), int(numcarbs), int(numhyd), int(numnitro), int(numoxy), int(numsulfur),
+                            float(pkaR), float(numcarbs), float(numhyd), float(numnitro), float(numoxy), float(numsulfur),
                             float(area), float(accessarea), float(buriedarea), float(arealoss), float(residmass),
                             float(monoisomass))
         LineNumber = LineNumber + 1
