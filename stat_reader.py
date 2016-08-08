@@ -25,19 +25,19 @@ plt.legend(['Training Accuracies', 'Xtrain Accuracies'], loc = 'lower right')
 plt.savefig("generated_data_plots/0379_gen_rand_2.png")
 percents = []"""
 percents = []
-infile = open("generated_helices-nolearn_0379_Models/statsummary.txt","r")
+infile = open("0379_real_rand.txt","r")
 
 for line in infile:
-    lines = line.split(",")
+    lines = line.split(" ")
     try:
-        point = lines[7]
-        digit = point.strip("\n")
+        point = lines[1]
+        digit = point
         #print (digit)
         try:
             numb = float(digit)
             percents.append(numb)
         except:
-            pass
+            print ("Problem")
     except:
         pass
 #for line in infile:
