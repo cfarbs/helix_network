@@ -2,7 +2,8 @@
 import pickle
 import numpy as np
 import matplotlib.pyplot as plt
-
+import matplotlib.mlab as mlab
+from scipy.stats import norm
 #infile = input("enter the set of features from the combo tests to examine")
 #infilestr=str(infile)
 #print (type(infilestr))
@@ -22,8 +23,10 @@ plt.xlabel("Epochs")
 plt.title("Accuracy Plot for 0379 on Generated vs Random; 2nd Run")
 plt.legend(['Training Accuracies', 'Xtrain Accuracies'], loc = 'lower right')
 plt.savefig("generated_data_plots/0379_gen_rand_2.png")
+percents = []"""
 percents = []
-infile = open("gen_rand_helices_2_0379_Models/statsummary.txt","r")
+infile = open("generated_helices-nolearn_0379_Models/statsummary.txt","r")
+
 for line in infile:
     lines = line.split(",")
     try:
@@ -37,19 +40,22 @@ for line in infile:
             pass
     except:
         pass
-for line in infile:
-    digit = line.strip("\n")
-    numb = float(digit)
-    percents.append(numb)
-plt.figure()
+#for line in infile:
+#    digit = line.strip("\n")
+#    numb = float(digit)
+#    percents.append(numb)
+(mu, sigma)=norm.fit(percents)
+n, bins, patches = plt.hist(percents, 10, normed =1, facecolor='blue',alpha =0.75)
+y = mlab.normpdf(bins,mu,sigma)
+l=plt.plot(bins,y,'r--',linewidth=2)
 plt.xlabel("Test Accuracy")
 plt.ylabel("Frequency")
-plt.title("Error distribution for 0379 on Generated vs Random; 2nd Run, n = 100 iterations")
-plt.hist(percents)
-plt.savefig("generated_data_plots/Error_dist_Gen_Rand_0379_2.png")
-#plt.show()
-infile.close()
-"""
+#figure_title = "0379 on Generated and Random Data; 2nd Run, n = 100 iterations"
+plt.title(r'$\mathrm{Histogram\ of\ Errors\ for\ 0379\ for\ Real\ and\ Generated\ data:}\ \mu=%.3f,\ \sigma=%.3f$'%(mu,sigma), y = 1.04)
+plt.show()
+#plt.savefig("generated_data_plots/Error_dist_Gen_Rand_0379_2.png")
+
+#infile.close()
 """
 infilestr = info[0]
 acc = str(info[1])

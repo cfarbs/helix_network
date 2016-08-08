@@ -37,9 +37,11 @@ def parse_args():
     parser.add_argument('--output_location', '-o', action='store', dest='out',
                         required=True, type=str, default=None,
                         help="directory to put results")
+    parser.add_argument('--adversarial', '-ad', action='store', dest='adversarial',
+                        required=True, type=str, default=True,
+                        help="determines whether run will be adversarial")
 
     args = parser.parse_args()
-    print (type(args))
     return args
 
 #def run_nn2(work_queue, done_queue):
@@ -69,6 +71,7 @@ def main(args):
 #    Config file: {config}
 #    Network type: {type}
 #    Network dims: {dims}
+#    Adversarial: {adv}
 #    Importing models from {models}
 #    Learning algorithm: {algo}
 #    Batch size: {batch}
@@ -83,7 +86,7 @@ def main(args):
                                 L1=args.L1, L2=args.L2, type=config['model_type'], dims=config['hidden_dim'],
                                 cmd=" ".join(sys.argv[:]), title=config["experiment_name"],
                                 batch=batch_size, algo=args.learning_algo, models=args.model_file,
-                                config=args.config)
+                                config=args.config, adv=args.adversarial)
 #
 #
     print (sys.stdout, start_message)
@@ -91,7 +94,9 @@ def main(args):
 #    work_queue = Manager().Queue()
 #    done_queue = Manager().Queue()
 #    jobs = []
-
+    adversarial = args.adversarial
+    if adversarial:
+        data = pickle.load(open("helix_network/lib/randhelices.pkl","rb"))
     for experiment in range(len(config['helixdict'])):
         nn_args = {
             "preprocess": args.preprocess,
@@ -110,10 +115,12 @@ def main(args):
             "extra_args": extra_args,
             "out_path": args.out,
             "helixdict": config['helixdict'][experiment],
-        }
+            "adversarial": args.adversarial,
+            "data": data
+            }
         errors, probs = classify_with_network2(**nn_args)  # activate for debugging
 #        work_queue.put(nn_args)
-        print (probs[5])
+
 #    for w in range(workers):
         #if args.group_3 is None:
 #        p = Process(target=run_nn2, args=(work_queue, done_queue))
