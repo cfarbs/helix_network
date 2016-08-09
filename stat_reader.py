@@ -12,8 +12,8 @@ epochs = np.arange(0,2500,250)
 #savedir = "combo_train_graphs/"
 #data = pickle.load(open("combo_80.pkl","rb"))
 #for info in data:
-"""results = pickle.load(open("gen_rand_helices_2_0379_Models/summary_stats.pkl","rb"))
-train_accuracies = (results['train_accuracies'])
+#results = pickle.load(open("generated_helices-nolearn_0379_Models/summary_stats.pkl","rb"))
+"""train_accuracies = (results['train_accuracies'])
 xtrain_accuracies = (results['xtrain_accuracies'])
 plt.figure()
 plt.plot(epochs, results['train_accuracies'])
@@ -25,33 +25,39 @@ plt.legend(['Training Accuracies', 'Xtrain Accuracies'], loc = 'lower right')
 plt.savefig("generated_data_plots/0379_gen_rand_2.png")
 percents = []"""
 percents = []
-infile = open("0379_real_rand.txt","r")
-
-for line in infile:
-    lines = line.split(" ")
+infile = open("gen_rand_helices_2_0379_Models/statsummary.txt","r")
+#print (results)
+"""for line in infile:
+    #print (line)
+    lines = line.split(",")
+    #print (lines)
     try:
-        point = lines[1]
+        point = lines[7]
         digit = point
         #print (digit)
         try:
             numb = float(digit)
             percents.append(numb)
         except:
-            print ("Problem")
+            pass
     except:
-        pass
-#for line in infile:
-#    digit = line.strip("\n")
-#    numb = float(digit)
-#    percents.append(numb)
+        pass"""
+#print (percents)
+for line in infile:
+    digit = line.strip("\n")
+    numb = float(digit)
+    percents.append(numb)
 (mu, sigma)=norm.fit(percents)
 n, bins, patches = plt.hist(percents, 10, normed =1, facecolor='blue',alpha =0.75)
-y = mlab.normpdf(bins,mu,sigma)
-l=plt.plot(bins,y,'r--',linewidth=2)
-plt.xlabel("Test Accuracy")
-plt.ylabel("Frequency")
-#figure_title = "0379 on Generated and Random Data; 2nd Run, n = 100 iterations"
-plt.title(r'$\mathrm{Histogram\ of\ Errors\ for\ 0379\ for\ Real\ and\ Generated\ data:}\ \mu=%.3f,\ \sigma=%.3f$'%(mu,sigma), y = 1.04)
+#y = mlab.normpdf(bins,mu,sigma)
+#l=plt.plot(bins,y,'r--',linewidth=2)
+plt.xlabel("Test Accuracy",size = 14)
+plt.ylabel("Frequency", size = 14)
+plt.xticks(fontsize = 13)
+plt.yticks(fontsize = 13)
+figure_title = "0379 on Real and Generated Data; 2nd Run, n = 100 iterations"
+plt.title(r'$\mathrm{Histogram\ of\ Errors\ for\ 0379\ for\ Generated\ and\ Random\ data:}\ \mu=%.3f,\ \sigma=%.3f$'%(mu,sigma),
+            y = 1.04, fontsize = 15)
 plt.show()
 #plt.savefig("generated_data_plots/Error_dist_Gen_Rand_0379_2.png")
 
